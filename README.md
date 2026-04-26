@@ -1,6 +1,13 @@
 # E-commerce QA Tests – Playwright
 
-End-to-end QA automation tests for an e-commerce demo website using Playwright.
+End-to-end QA automation tests for an e-commerce application using Playwright.
+Includes both positive and negative test cases:
+* Login (success & failure)
+* Cart functionality (add/remove items)
+* Checkout flow
+* Price validation
+Built with reusable functions and a structured test architecture.
+Tech: Playwright, JavaScript, Git
 
 ## Tested features
 
