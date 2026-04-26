@@ -17,9 +17,19 @@ End-to-end QA automation tests for an e-commerce demo website using Playwright.
 - JavaScript
 - Node.js
 
-## How to run
+## How to run tests
 
 ```bash
 npm install
 npx playwright test
 ```
+
+## What this project demonstrates
+- End-to-end testing using Playwright
+- UI automation for e-commerce flows
+- Test coverage for login, cart, checkout
+- Error handling validation
+
+## Author
+
+Roger Björling Frontend Developer Student | QA Automation
