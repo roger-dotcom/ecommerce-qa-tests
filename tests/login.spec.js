@@ -24,5 +24,7 @@ test("User cannot login with wrong credentials", async ({ page }) => {
   await page.locator("#password").fill("wrong_password");
   await page.locator("#login-button").click();
 
-  await expect(page.locator('[data-test="error"]')).toBeVisible();
+  await expect(page.locator('[data-test="error"]')).toContainText(
+    "Username and password do not match",
+  );
 });
